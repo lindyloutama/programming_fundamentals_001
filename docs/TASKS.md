@@ -193,29 +193,43 @@ The following questions are intended to be answered with written answers (no cod
 
 1. Which part is the file extension of the package.json file?
 
--JSON
+   A: JSON
 
 2. What does JSON stand for?
 
-- Javascript object notation
+    A: Javascript object notation
 
 3. What is the purpose of JSON?
 
-- 
+    A: It is used primarily to   transmit data between a      server and web applicatio
 
 4. What does the package.json file do?
 
+    A: This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies
+
 5. How do you install dependencies in a project after first cloning it from Github?
+
+    A: npm install
 
 6. What does "forking" mean in the context of Github?
 
+    A: Copying a repository
+
 7. What data types do you know?
+
+    A: Boolean, numbers, strings, null, array
 
 8. What is the difference between primitive and complex data types, and can you give examples of each?
 
+    A: primitive data types can not be changed and can only hold 1 value and complex data types can be changed once created and hold multiple values.
+
 9. What would be the best data type for representing whether a user is logged into the system or not?
 
+    A: primitive
+
 10. How would you create a variable whose value could not be changed?
+
+    A: by using const
 
 11. What would be the outcome of running this code?
 
@@ -228,6 +242,13 @@ function sayHello(name) {
 
 sayHello("Sally");
 ```
+
+    A: Hello Sandra
+    undefined
+
+    firstName variable has been logged to the console.
+
+    sayHello function hasn't been defined.
 
 12. What would be the outcome of running this code?
 
@@ -242,9 +263,16 @@ const result = getFullname("Sally", "Jennings");
 
 console.log(fullName);
 ```
+    A: error - fullName variable result has only been returned locally not globally. Therefore it cannot return the result of the function. 
 
 13. If you wanted to see what dependencies were required in this project, where would you to to look for a list?
 
+    A: package.JSON file
+
 14. When you install dependencies, what directory is created?
 
+    A: node_modules
+
 15. How can you write comments in your code?
+
+    A: By using // before the start of each line.

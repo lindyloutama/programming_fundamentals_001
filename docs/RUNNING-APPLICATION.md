@@ -51,7 +51,8 @@ The [file extension](https://en.wikipedia.org/wiki/Filename_extension) (thats th
 
 It is a standard way for defining a structure of data, it has keys and values. For example the file above has a key of **main** that has a string (text) value of **index.js**.
 
-The keys are always string and define the name of the property and the values are usually strings (text), integers (numbers), booleans (true or false) or can be nested objects. An example of a nested object is the property called **scripts** its value is a nested object, denoted by the curly braces `{}` and that nested object has its own set of keys. One of which is **test** that has a string value of **jest**.
+The keys are always string and define the name of the property and the values are usually strings (text), integers (numbers), booleans (true or false) or can be nested objects. An example of a nested object is the ## Exploring the files
+property called **scripts** its value is a nested object, denoted by the curly braces `{}` and that nested object has its own set of keys. One of which is **test** that has a string value of **jest**.
 
 ### What does this file actually do?
 

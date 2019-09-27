@@ -86,7 +86,7 @@ module.exports = {
 };
 ```
 
-The test from task 4 should now pass.
+The test from task 4 should now pass.the price with a 50% discount applied 
 
 ## 6) Write a test for a `makeHalfPrice` function
 
@@ -193,9 +193,15 @@ The following questions are intended to be answered with written answers (no cod
 
 1. Which part is the file extension of the package.json file?
 
+-JSON
+
 2. What does JSON stand for?
 
+- Javascript object notation
+
 3. What is the purpose of JSON?
+
+- 
 
 4. What does the package.json file do?
 
